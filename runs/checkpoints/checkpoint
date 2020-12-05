@@ -1,0 +1,4 @@
+model_checkpoint_path: ".\\runs\\checkpoints\\model-2500"
+all_model_checkpoint_paths: ".\\runs\\checkpoints\\model-2300"
+all_model_checkpoint_paths: ".\\runs\\checkpoints\\model-2400"
+all_model_checkpoint_paths: ".\\runs\\checkpoints\\model-2500"
