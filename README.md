@@ -29,20 +29,20 @@
         
     - 详解    
         - 模型训练
-            python textcnn/train.py    
+            python train.py    
             训练数据：./data/train_data.txt        
     
         - 模型评估    
-            python textcnn/eval.py     
+            python eval.py     
             测试数据：./data/vilid_data.txt
 
         - 单句测试
-            python textcnn/predict.py '猪肉饺子'    
+            python predict.py '猪肉饺子'    
             输出结果：classify: 湿垃圾
                         
 # 垃圾分类识别
     - 识别
-        python rafuse.py img/2.png        
+        python refuse.py img/2.png        
         输出结果：
             移动电话手机  =>  可回收垃圾
             iPod  =>  湿垃圾
