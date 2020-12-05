@@ -13,10 +13,10 @@ import tensorflow.compat.v1 as tf  #
 tf.disable_v2_behavior()
 
 ##数据参数
-tf.compat.v1.flags.DEFINE_string("w2v_file", "D:\工业网络技术\大三-1\林瑶祺\垃圾分类/data/word2vec.bin", "w2v_file path")
+tf.compat.v1.flags.DEFINE_string("w2v_file", "./data/word2vec.bin", "w2v_file path")
 ##评估模型参数
 tf.compat.v1.flags.DEFINE_integer("batch_size", 64, "Batch Size (default: 64)")
-tf.compat.v1.flags.DEFINE_string("checkpoint_dir", "D:\工业网络技术\大三-1\林瑶祺\垃圾分类/runs/checkpoints/", "Checkpoint directory from training run")
+tf.compat.v1.flags.DEFINE_string("checkpoint_dir", "./runs/checkpoints/", "Checkpoint directory from training run")
 ##tf.ConfigProto参数
 tf.compat.v1.flags.DEFINE_boolean("allow_soft_placement", True, "Allow device soft device placement")
 tf.compat.v1.flags.DEFINE_boolean("log_device_placement", False, "Log placement of ops on devices")
